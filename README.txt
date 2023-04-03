@@ -1,1 +1,1 @@
-An early version of my proffesional portfolio.
+My proffesional portfolio.
