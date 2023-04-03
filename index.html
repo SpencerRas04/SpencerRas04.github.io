@@ -18,85 +18,142 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
+			<style>
+				.block {
+					display: block;
+					width: 50%;
+					border: none;
+					background-color: #000000;
+					color: white;
+					padding: 14px 28px;
+					font-size: 16px;
+					cursor: pointer;
+					text-align: center;
+				}
+			</style>
 
-				<!-- Introduction -->
-					<section class="intro">
-						<header>
-							<h1>Welcome to my portfolio</h1>
-							<p>Below you will find a few things about myself as well as some projects I am working on</p>
-							<ul class="actions">
-								<li><a href="#about" class="fas fa-address-card scrolly">About</a></li>
-								<li><a href="#projects" class="fas fa-laptop-code scrolly">Projects</a></li>
-								<li><a href="#contact" class = "fas fa-comment-dots scrolly">Contact</a></li>
-							</ul>
-						</header>
-						<div class="content">
-							<span class="image fill" data-position="center"><img src="images\DetroitRiver.jpg" alt="" /></span>
-						</div>
-					</section>
+			<!-- Introduction -->
+			<section class="intro">
+				<header>
+					<h1>Welcome!</h1>
+					<p>Below you will find a few things about myself as well as some projects I am working on</p>
+					<ul class="actions">
+						<li><a href="#about" class="fas fa-address-card scrolly">About</a></li>
+						<li><a href="#projects" class="fas fa-laptop-code scrolly">Projects</a></li>
+						<li><a href="#contact" class="fas fa-comment-dots scrolly">Contact</a></li>
+					</ul>
+				</header>
+				<div class="content">
+					<span class="image fill" data-position="center"><img src="images\DetroitRiver.jpg" alt="" /></span>
+				</div>
+			</section>
 
-				<!-- Self description -->
-					<section id="about">
-						<header>
-							<h2>About me</h2>
-						</header>
-						<div class="content">
-							<p>
-							My name is Spencer Ras, I have a bachelors of science in Computer Science from the University of Windsor. 
-							I am proficient with Java, HTML, C#, C++, and JavaScript with working knowledge in React, MySQL CSS, Python, and Sass. 
-							I am open to game developer positions, software engineering, IT positions and data analyst positions.
-							</p>
-							<span class="image main"><img src="images/Code.jpg" alt="" /></span>
-						</div>
-					</section>
-				
-				<!--Projects-->
-					<section id ="projects">
-						<header>
-							<h2>Projects</h2>
-						</header>
-						<div class= "content">
-							<p><strong>Here are some of my projects</strong></p>
-							<dl>
-								<dt>Unstableable<a href="https://ras-gamedev.itch.io/unstableable"><button>link</button></a></dt>
-								<dd>My Ludum Dare submission where the theme was Unstable. 
-									Typing game where players type to prevent their structure from being knocked over</dd>
-								<dt>Zombie Driver<a href="https://ras-gamedev.itch.io/zombie-driver"><button>link</button></a></dt>
-								<dd>An endless runner where the player shoots zombies and ghosts to earn a highscore</dd>
-								<dt>Pinballin' <a href="https://ras-gamedev.itch.io/pinballin"><button>link</button></a></dt> 
-								<dd>Pinball with both a single player and versus mode</dd>
-							</dl>
-						</div>
-					</section>
-				<!-- Contact me section -->
-					<section id="contact">
-						<header>
-							<h2>Contact Me</h2>
-						</header>
-						<div class="content">
-							<p><strong>Thank you for your interest!</strong></p>
-							<p>If you're interested in working with me then please feel free to contact me via email or LinkedIn.</p>
-							<p></p>
-						</div>
-						<footer>
-							<ul class="items">
-								<li>
-									<h3>Email</h3>
-									<a href="mailto:ras_spencer@yahoo.ca">ras_spencer@yahoo.ca</a>
-								</li>
-								<li>
-									<h3>Social Media</h3>
-									<ul class="icons">
-										<li><a href="https://www.linkedin.com/in/spencerras/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/SpencerRas04" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="https://ras-gamedev.itch.io/" class="fab fa-itch-io"><span class="label"></span></a></li>
-									</ul>
-								</li>
+			<!-- Self description -->
+			<section id="about">
+				<header>
+					<h2>About me</h2>
+				</header>
+				<div class="content">
+					<p>
+						My name is Spencer Ras, I have a bachelors of science in Computer Science from the University of Windsor.
+						I've been playing games all my life, from World of Warcraft to Call of Duty, I'm familiar with a wide variety of genres.
+						My favorite games have to be the Kingdom Hearts series. They showed me how a game can deliver a full experience
+						not only through its gameplay but through the story and characters. The way I felt when playing that series is what
+						inspired me to pursue a career in game development. I want to create games that gives the players what they're seeking.
+					</p>
+					<span class="image main"><img src="images/Code.jpg" alt="" /></span>
+				</div>
+			</section>
+
+			<!--Projects-->
+			<section id="projects">
+				<header>
+					<h2>Projects</h2>
+				</header>
+				<div class="content">
+					<p><strong>Here are some of my projects, feel free to test them out!</strong></p>
+					<dl>
+						<dt><a href="https://ras-gamedev.itch.io/born-in-flames">Born in Flames </a></dt>
+						<dd>
+							A small game I made for the Brakey's game jam where the theme was "An End is a New Beginning." 
+							You play as a dragon destroying a village that the villagers keep rebuilding in front of your home,
+							the volcano. I had a week to develop this game. I did not make any of the assets but I developed 
+							everything else solo.
+							<span class="image main"><img src="images/BornInFlamesGif.gif" alt="" /></span>
+						</dd>
+
+						<dt>
+							<a href="https://ras-gamedev.itch.io/unstableable">Unstableable</a>
+						</dt>
+						<dd>
+							My Ludum Dare submission where the theme was Unstable. I had 24 hours to develope this game, I made
+							every asset myself.
+							This is a typing game where the player needs to hack in to bulldozers trying to knock over their tower
+							and shut them down.
+							<span class="image main"><img src="images/Midgame.png" alt="" /></span>
+						</dd>
+
+						<dt><a href="https://ras-gamedev.itch.io/zombie-driver">Zombie Driver</a></dt>
+						<dd>
+							You play as a survivor in a zombie apocalypse driving through a decrepit city. Dodge and shoot at
+							zombies throwing bricks to try to stop you as well as a ghastly entity. I made most the assets myself
+							excluding the zombie's model.
+							<span class="image main"><img src="images/Untitled-1.png" alt="" /></span>  
+						</dd>
+					</dl>
+					<p><strong>Here are some projects I'm currently working on.</strong></p>
+					<dl>
+						<dt>What was That?</dt>
+						<dd>
+							You're laying in bed one night playing a typing game on your phone but you see something
+							out of the corner of your eye... Keep monsters away from your house and away from yourself
+							in this horror typing game. All the assets except for the props (couch, tv, computer etc.) were 
+							made by me.
+							<span class="image main"><img src="images/WhatWasThatGIF6.gif" alt="" /></span>
+						</dd>
+						<dt>Sci-Fi Tower Defence</dt>
+						<dd>
+							Play as an alien defending your ship and crew from incoming enemies. Build turrets and 
+							finish enemies off with your blaster. I used two different asset packs, one for the models and one for the UI.
+							<span class="image main"><img src="images/TowerDefenseGIF6.gif" alt="" /></span>
+						</dd>
+						<dt>Pro Shooter Underground</dt>
+						<dd>
+							A movement focused multiplayer fps where the amount of kills you get doesn't matter
+							but how cool they look does. This project uses Unity's Netcode for GameObjects as well as Unity Relay.
+							<span class="image main"><img src="images/ProShooterUndergroundGIF6.gif" alt="" /></span>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<!-- Contact me section -->
+			<section id="contact">
+				<header>
+					<h2>Contact Me</h2>
+				</header>
+				<div class="content">
+					<p><strong>Thank you for your time!</strong></p>
+					<p>If you're interested in working with me then please feel free to contact me via email or LinkedIn. I am open to work at the moment and would love to speak to you about any opportunities you may have.</p>
+				</div>
+				<footer>
+					<ul class="items">
+						<li>
+							<h3>Email</h3>
+							<a href="mailto:ras_spencer@yahoo.ca">ras_spencer@yahoo.ca</a>
+						</li>
+						<li>
+							<h3>Social Media</h3>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/spencerras/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/SpencerRas04" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://ras-gamedev.itch.io/" class="fab fa-itch-io"></a></li>
 							</ul>
-						</footer>
-					</section>
-			</div>
+						</li>
+					</ul>
+				</footer>
+			</section>
+		</div>
 
 			<!--Scroll to top button-->
 			<style>
@@ -119,6 +176,7 @@
 					cursor: pointer;
 					padding: 15px;
 					border-radius: 4px;
+					text-align: center;
 				}
 			
 				#myBtn:hover {
